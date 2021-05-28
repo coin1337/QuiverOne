@@ -1,0 +1,72 @@
+{
+  "mappings": {
+    "net/zebra/quiverone/mixin/ParticleManagerMixin": {
+      "addParticle(Lnet/minecraft/particle/ParticleEffect;DDDDDD)Lnet/minecraft/client/particle/Particle;": "Lnet/minecraft/class_702;method_3056(Lnet/minecraft/class_2394;DDDDDD)Lnet/minecraft/class_703;",
+      "addBlockBreakParticles": "Lnet/minecraft/class_702;method_3046(Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;)V"
+    },
+    "net/zebra/quiverone/mixin/GameRendererMixin": {
+      "renderHand": "Lnet/minecraft/class_757;method_3172(Lnet/minecraft/class_4587;Lnet/minecraft/class_4184;F)V"
+    },
+    "net/zebra/quiverone/mixin/MinecraftClientMixin": {
+      "stop": "Lnet/minecraft/class_310;method_1490()V",
+      "run": "Lnet/minecraft/class_310;method_1514()V",
+      "updateWindowTitle": "Lnet/minecraft/class_310;method_24288()V"
+    },
+    "net/zebra/quiverone/mixin/InGameHudMixin": {
+      "render": "Lnet/minecraft/class_329;method_1753(Lnet/minecraft/class_4587;F)V"
+    },
+    "net/zebra/quiverone/mixin/EntityRendererMixin": {
+      "renderLabelIfPresent": "Lnet/minecraft/class_897;method_3926(Lnet/minecraft/class_1297;Lnet/minecraft/class_2561;Lnet/minecraft/class_4587;Lnet/minecraft/class_4597;I)V"
+    },
+    "net/zebra/quiverone/mixin/ClientPlayerEntityMixin": {
+      "tick": "Lnet/minecraft/class_746;method_5773()V"
+    },
+    "net/zebra/quiverone/mixin/KeyboardMixin": {
+      "onKey": "Lnet/minecraft/class_309;method_1466(JIIII)V"
+    },
+    "net/zebra/quiverone/mixin/ClientConnectionMixin": {
+      "send(Lnet/minecraft/network/Packet;Lio/netty/util/concurrent/GenericFutureListener;)V": "Lnet/minecraft/class_2535;method_10752(Lnet/minecraft/class_2596;Lio/netty/util/concurrent/GenericFutureListener;)V",
+      "channelRead0": "Lnet/minecraft/class_2535;method_10770(Lio/netty/channel/ChannelHandlerContext;Lnet/minecraft/class_2596;)V"
+    },
+    "net/zebra/quiverone/mixin/TitleScreenMixin": {
+      "initWidgetsNormal": "Lnet/minecraft/class_442;method_2249(II)V",
+      "render": "Lnet/minecraft/class_442;method_25394(Lnet/minecraft/class_4587;IIF)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "net/zebra/quiverone/mixin/ParticleManagerMixin": {
+        "addParticle(Lnet/minecraft/particle/ParticleEffect;DDDDDD)Lnet/minecraft/client/particle/Particle;": "Lnet/minecraft/class_702;method_3056(Lnet/minecraft/class_2394;DDDDDD)Lnet/minecraft/class_703;",
+        "addBlockBreakParticles": "Lnet/minecraft/class_702;method_3046(Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;)V"
+      },
+      "net/zebra/quiverone/mixin/GameRendererMixin": {
+        "renderHand": "Lnet/minecraft/class_757;method_3172(Lnet/minecraft/class_4587;Lnet/minecraft/class_4184;F)V"
+      },
+      "net/zebra/quiverone/mixin/MinecraftClientMixin": {
+        "stop": "Lnet/minecraft/class_310;method_1490()V",
+        "run": "Lnet/minecraft/class_310;method_1514()V",
+        "updateWindowTitle": "Lnet/minecraft/class_310;method_24288()V"
+      },
+      "net/zebra/quiverone/mixin/InGameHudMixin": {
+        "render": "Lnet/minecraft/class_329;method_1753(Lnet/minecraft/class_4587;F)V"
+      },
+      "net/zebra/quiverone/mixin/EntityRendererMixin": {
+        "renderLabelIfPresent": "Lnet/minecraft/class_897;method_3926(Lnet/minecraft/class_1297;Lnet/minecraft/class_2561;Lnet/minecraft/class_4587;Lnet/minecraft/class_4597;I)V"
+      },
+      "net/zebra/quiverone/mixin/ClientPlayerEntityMixin": {
+        "tick": "Lnet/minecraft/class_746;method_5773()V"
+      },
+      "net/zebra/quiverone/mixin/KeyboardMixin": {
+        "onKey": "Lnet/minecraft/class_309;method_1466(JIIII)V"
+      },
+      "net/zebra/quiverone/mixin/ClientConnectionMixin": {
+        "send(Lnet/minecraft/network/Packet;Lio/netty/util/concurrent/GenericFutureListener;)V": "Lnet/minecraft/class_2535;method_10752(Lnet/minecraft/class_2596;Lio/netty/util/concurrent/GenericFutureListener;)V",
+        "channelRead0": "Lnet/minecraft/class_2535;method_10770(Lio/netty/channel/ChannelHandlerContext;Lnet/minecraft/class_2596;)V"
+      },
+      "net/zebra/quiverone/mixin/TitleScreenMixin": {
+        "initWidgetsNormal": "Lnet/minecraft/class_442;method_2249(II)V",
+        "render": "Lnet/minecraft/class_442;method_25394(Lnet/minecraft/class_4587;IIF)V"
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.zebra.quiverone.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [],
+  "client": [
+    "MinecraftClientMixin",
+    "KeyboardMixin",
+    "TitleScreenMixin",
+    "ClientPlayerEntityMixin",
+    "InGameHudMixin",
+    "ParticleManagerMixin",
+    "ClientConnectionMixin",
+    "EntityRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "Quiverone-refmap.json"
+}
